@@ -15,3 +15,27 @@ Three Classes of images have been manually collected and then labeled using Labe
 The OpenCV computer vision library and its dnn module have been used to process images and videos for detections and make timestamps for detections.
 
 Here is a sample of the video after the detections have been overlayed:
+
+![](https://github.com/Rami97rgb/Actors-Detection/blob/master/images/act1.png)
+
+And some timestamps:
+
+![](https://github.com/Rami97rgb/Actors-Detection/blob/master/images/act2.png)
+
+## Usage
+For Videos:
+
+`python yolo_video.py --input videos/in_video_name.mp4 --output output/out_video_name.avi --yolo yolo-coco`
+
+For images:
+
+`python yolo.py --image images/img_name.jpg --yolo yolo-coco`
+
+## Resources:
+Training: https://blog.roboflow.com/training-yolov4-on-a-custom-dataset/
+
+Inference: https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+
+Original YOLO paper: https://arxiv.org/abs/1506.02640
+
+YOLOv4 paper: https://arxiv.org/abs/2004.10934
