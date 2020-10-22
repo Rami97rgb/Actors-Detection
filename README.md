@@ -8,7 +8,7 @@ Three Classes of images have been manually collected and then labeled using Labe
 
 ## Training
 * I used the Darknet deep learning framework because it is fast, GPU accelerated and flexible, but most importantly it is a low level framework that provides a good understanding of how neural nets work.
-* I choose the YOLOv4 object detector because, although it is relatively slow, it is also one of the performing ones: This is perfectly adequate for our use case since our app does not run in real-time. To get a better understanding of the algorithm I recommend reading The original YOLO and the new YOLOv4 research papers linked in the resources bellow.
+* I choose the YOLOv4 object detector because, although it is relatively slow, it is also one of the best performing ones: This is perfectly adequate for our use case since our app does not run in real-time. To get a better understanding of the algorithm I recommend reading The original YOLO and the new YOLOv4 research papers linked in the resources bellow.
 * The model has been trained on a Google Colab GPU for about 8 hours using pretrained YOLOv4 weights.
 
 ## Inference
@@ -23,7 +23,7 @@ And some timestamps:
 ![](https://github.com/Rami97rgb/Actors-Detection/blob/master/images/act2.png)
 
 ## Usage
-For Videos:
+For videos:
 
 `python yolo_video.py --input videos/in_video_name.mp4 --output output/out_video_name.avi --yolo yolo-coco`
 
